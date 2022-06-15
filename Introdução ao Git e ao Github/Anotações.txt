@@ -1,3 +1,17 @@
-Link para download do Git:
+Como clonar um repositório do servidor:
+ - Abrir o Git Bash na pasta desejada;
+ - copiar o código SSh do repositório que quer clonar;
+ - inserir o comando "git clone" + codigo SSH.
 
-O Git Bash é um terminal para 
+Como dar commit do repositório local para o servidor:
+ 
+- ir até a pasta local onde está o material;
+- inserir o comando "git add .";
+- inserir o comando " git commit -m "descrição das modificações" ";
+- inserir o comando " git push origin main" para enviar para o servidor.
+
+Outros comandos importantes:
+- git status;
+- ctrl + L;
+- dir;
+- ls.
